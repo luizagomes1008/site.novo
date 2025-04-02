@@ -1,0 +1,20 @@
+body{
+    background-color: #d1a76e;
+    text-align: center;
+}
+
+h1{
+    background-color: #e6be88;
+    color: #4c6c9c;
+    font-size: 3em;
+}
+
+p{
+    color: #797113;
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: #e6be88; 
+    font-size: 1.5em;
+}
