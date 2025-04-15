@@ -7,9 +7,18 @@
 body{
     background-color: rgb(0, 0, 0);
 }
-h1{
-    color: rgb(0, 0, 0); background-color: rgb(252, 252, 252); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+p.vazio{
+    color: #000000; font-size: 1.5em;
 }
+h1.nada{
+   font-size: 2em;
+    color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+}
+h1{
+ font-size: 2.2em;
+    color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+}
+
 footer{
     color: rgb(0, 0, 0); font-size: 2em;
     background-color: #ffffff;
@@ -64,7 +73,7 @@ h2{
     margin-left: 20px;
   }
   nav ul li a{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     
   }
@@ -78,10 +87,10 @@ h2{
     flex-wrap: wrap;
   }
  .logo{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
     color: #000000; background-color: #ffffff;
-    font-style: oblique; outline-style: dashed; outline-color: rgb(0, 0, 0);
+    font-style: oblique; outline-style:double; outline-color: rgb(0, 0, 0);
     
 }
 p3{
@@ -90,6 +99,8 @@ p3{
         background-color: rgb(36, 36, 36);
     }
 }
+
+
 
 
 
