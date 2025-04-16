@@ -5,7 +5,7 @@
     scroll-behavior:smooth;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0)
 }
 p.vazio{
     color: #000000; font-size: 1.5em;
@@ -27,13 +27,19 @@ footer{
 main p1{
     color: rgb(0, 0, 0); background-color: rgb(70, 70, 70); font-size: 1.5em; font-style: inherit;
     opacity: 59%;
+    
+    
 }
 main h1{
    color: rgb(255, 255, 255); font-style: oblique; background-color: black;
+   color: rgb(255, 238, 238);
+   text-shadow: 2px 2px 4px #ffffff;
+   padding-bottom: 5px;
+ 
 }
 header{
-    background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #000000; outline-style: double;
-    padding: 5px  5px  5px  5px;
+    background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #ffffff; outline-style: double;
+    padding: 10px  10px  10px  10px;
     width: 100%;
     top: 0%;
     position: fixed;
@@ -57,7 +63,7 @@ ul{
 }
 h2{
     color: rgb(250, 250, 250); background-color: rgb(0, 0, 0); font-size: 1.5em; font-style: inherit;
-
+    padding-top: 15px;
 }
 @media (max-width: 675px) {
     header.container {
@@ -87,10 +93,11 @@ h2{
     flex-wrap: wrap;
   }
  .logo{
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
     color: #000000; background-color: #ffffff;
     font-style: oblique; outline-style:double; outline-color: rgb(0, 0, 0);
+    
     
 }
 p3{
@@ -99,7 +106,66 @@ p3{
         background-color: rgb(36, 36, 36);
     }
 }
+.banner{
+    background: url(../img/download\ \(1\).jpg.crdownload) no-repeat center/cover;
+    height: 200px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+.paragrafo{
+    color: rgb(255, 255, 255);
+    background:none;
+    font-style:oblique;
+    color: rgb(255, 238, 238);
+    text-shadow: 4px 4px 4px #000000;
+    
+}
+#heavymetal{
+    padding: 15px;
+    
+}
+#DSBM{
+    padding: 15px;
+}
 
+#numetal{
+    padding: 15px;
+
+}
+#alternativemetal{
+    padding: 15px;
+}
+#gothicmetal{
+    padding: 15px;
+
+}
+#deathmetal{
+    padding: 15px;
+}
+#trashmetal{
+    padding: 15px;
+}
+
+
+#musicas{
+    padding: 15px;
+    flex-direction: column;/*alter*/
+    justify-content: space-between;
+    align-items:normal;
+    gap: 40px;
+    max-width: 1400px;
+    
+}
+video{
+    margin-left: 0.7%; margin-right: 0.7%;
+    outline-style:outset; outline-color: #ffffff;
+}
 
 
 
