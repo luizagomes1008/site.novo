@@ -1,31 +1,93 @@
 *{
     margin: 0;
-    padding: 15;
+    padding: 0;
     box-sizing: border-box;
     scroll-behavior:smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
 }
 body{
     background-color: rgb(0, 0, 0)
 }
-p.vazio{
-    color: #000000; font-size: 1.5em;
+header{
+    background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #ffffff; outline-style: double;
+    padding: 5px  5px  5px  5px;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    z-index: 1000;
 }
-h1.nada{
-   font-size: 2em;
-    color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
+.logo{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000000; background-color: #ffffff;
+    font-style: oblique; outline-style:double; outline-color: rgb(0, 0, 0);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul li{
+    margin-left: 20px;
+  }
+  nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+  @media (max-width: 675px) {
+    header{
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    nav ul{
+        margin-top: 10px;
+        flex-direction: column;
+      }
+    
+    
+  }
 h1{
  font-size: 2.2em;
     color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
 }
-
+.pbanner{
+    color: rgb(255, 255, 255); font-size: 1.5em; font-style: italic;
+}
+.banner{
+    background: url(../img/download\ \(1\).jpg.crdownload) no-repeat center/cover;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 2px 2px 5px #dfe0e5
+    
+}
 footer{
     color: rgb(0, 0, 0); font-size: 2em;
     background-color: #ffffff;
 }
 
 main p1{
-    color: rgb(0, 0, 0); background-color: rgb(70, 70, 70); font-size: 1.5em; font-style: inherit;
+    color: rgb(0, 0, 0); background-color: rgb(99, 99, 99); font-size: 1.5em; font-style: inherit;
     opacity: 59%;
     
     
@@ -37,21 +99,7 @@ main h1{
    padding-bottom: 5px;
  
 }
-header{
-    background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #ffffff; outline-style: double;
-    padding: 10px  10px  10px  10px;
-    width: 100%;
-    top: 0%;
-    position: fixed;
-    z-index: 1000;
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    transition: width 2s; 
-}
+
 img{
     margin-left: 0.7%; margin-right: 0.7%;
     outline-style:outset; outline-color: #ffffff;
@@ -59,49 +107,20 @@ img{
    
 }
 ul{
-    color: rgb(0, 0, 0); background-color: rgb(70, 70, 70); font-size: 1.5em; font-style: inherit;
+    color: rgb(0, 0, 0); background-color: rgb(99, 99, 99); font-size: 1.5em; font-style: inherit;
     opacity: 59%;
 }
 h2{
     color: rgb(250, 250, 250); background-color: rgb(0, 0, 0); font-size: 1.5em; font-style: inherit;
     padding-top: 15px;
+    outline-style: double; outline-color: #ffffff;
 }
-@media (max-width: 675px) {
-    header.container {
-      flex-direction: column;
-      text-align: center;
-      nav ul{
-        margin-top: 10px;
-        flex-direction: column;
-      }
-    }
-    
-  }
-  nav ul li{
-    margin-left: 20px;
-  }
-  nav ul li a{
-    color: #ffffff;
-    text-decoration: none;
-    
-  }
+ 
+ 
   a:hover{
       background-color: black;
   }
-  header.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
- .logo{
-    font-size: 3em;
-    font-weight: bold;
-    color: #000000; background-color: #ffffff;
-    font-style: oblique; outline-style:double; outline-color: rgb(0, 0, 0);
-    
-    
-}
+
 p3{
     a{
         margin-top: 20px;
@@ -109,18 +128,7 @@ p3{
         background-color: rgb(36, 36, 36);
     }
 }
-.banner{
-    background: url(../img/download\ \(1\).jpg.crdownload) no-repeat center/cover;
-    height: 200px;
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 1.5em;
-    text-align: center;
-    
-}
+
 .paragrafo{
     color: rgb(255, 255, 255);
     background:none;
@@ -129,50 +137,7 @@ p3{
     text-shadow: 4px 4px 4px #000000;
     
 }
-.vazio{
-    color: #000000;
-}
-#heavymetal{
-    padding: 15px;
-    
-}
-#DSBM{
-    padding: 15px;
-}
 
-#numetal{
-    padding: 15px;
-
-}
-#alternativemetal{
-    padding: 15px;
-}
-#gothicmetal{
-    padding: 15px;
-
-}
-#deathmetal{
-    padding: 15px;
-}
-#trashmetal{
-    padding: 15px;
-}
-
-
-#musicas{
-    padding: 15px;
-    flex-direction: column;/*alter*/
-    justify-content: space-between;
-    align-items:normal;
-    gap: 40px;
-    max-width: 1400px;
-    
-}
-video{
-    margin-left: 0.7%; margin-right: 0.7%;
-    outline-style:outset; outline-color: #ffffff;
-    flex: 1;
-}
 #sobre{
     padding: 35px;
     margin-top: 5px;  
@@ -184,12 +149,11 @@ video{
     align-items: center;
     gap: 40px;
     max-width: 1400px;
+    margin: auto;
 }
 .sobre-texto{
     flex: 1;
     padding: 20px;
-
-    
 }
 .fonte-texto h2{
     font-size: 1.3em;
@@ -204,14 +168,14 @@ video{
 .hex-grid{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 15px;
     justify-content: center;
     flex: 1;
 }
 .hex{
     width: 140px;
     height: 120px;
-    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+    clip-path: polygon(60% 0%, 103% 35%, 103% 75%, 60% 100%, 8% 75%, 8% 35%);
     overflow: hidden;
     background-color: #ffffff;
     position: relative;
@@ -222,8 +186,21 @@ video{
     height: 100%;
     object-fit: cover;
 }
-
-
+@media (max-width:675px){
+    header.container, .sobre-container{
+     flex-direction: column;
+     text-align: center;
+    }
+    nav ul{
+     margin-top: 10px;
+     flex-direction: column;
+    }
+    .banner{
+     margin-top: 160px;
+    }
+ 
+ }
+ 
 
 
 
