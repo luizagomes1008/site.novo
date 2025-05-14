@@ -60,8 +60,11 @@ nav ul li{
     
   }
 h1{
+    margin-top: 10px;
  font-size: 2.2em;
     color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 120px;
 }
 .pbanner{
     color: rgb(255, 255, 255); font-size: 1.5em; font-style: italic;
@@ -89,10 +92,12 @@ footer{
 main p1{
     color: rgb(0, 0, 0); background-color: rgb(99, 99, 99); font-size: 1.5em; font-style: inherit;
     opacity: 59%;
+    margin-top: 10px;
     
     
 }
 main h1{
+    padding-top: 5px;
    color: rgb(255, 255, 255); font-style: oblique; background-color: black;
    color: rgb(255, 238, 238);
    text-shadow: 2px 2px 4px #ffffff;
@@ -201,8 +206,43 @@ p3{
     }
  
  }
- 
+ .card{
+    width:70%;
+ }
+ #acao .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+    padding: 50px 0;
+ }
+#acao .item{
+    background-color:#000000;
+    outline-style: double; outline-color: #ffffff;
+    border: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    cursor:pointer
+}
+#acao .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #ffffff;
 
+}
+#acao .item:active{
+    transform: scale(0.98);
+    box-shadow: 0 8px 16px #ffffff;
 
+}
+#acao .item p{
+    margin-top: 15px;
+    font-size: 0.95em;
+    color: #ffffff;
+}
+ #acao .imagem img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
 
- 
+ }
