@@ -160,6 +160,7 @@ p3{
 .sobre-texto{
     flex: 1;
     padding: 20px;
+
 }
 .fonte-texto h2{
     font-size: 1.3em;
@@ -237,7 +238,7 @@ p3{
 #acao .item p{
     margin-top: 15px;
     font-size: 0.95em;
-    color: #ffffff;
+    color: #707070;
 }
  #acao .imagem img{
     width: 100%;
@@ -246,3 +247,31 @@ p3{
     margin-bottom: 10px;
 
  }
+ .card{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgb(255, 255, 255);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+
+ }
+ .card h2{
+    margin-top: 0;
+
+ }
+ .btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px
+    
+ }
+
+ 
