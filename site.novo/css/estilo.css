@@ -207,9 +207,13 @@ p3{
     }
  
  }
- .card{
+ .imgcard{
     width:70%;
+
  }
+ .centralizado{
+    text-align: center;
+}
  #acao .container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -246,18 +250,28 @@ p3{
     height: auto;
     margin-bottom: 10px;
 
- }
- .card{
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgb(255, 255, 255);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
 
  }
- .card h2{
+ .centraliza{
+    text-align: center;
+}
+
+ /*modal*/ 
+
+ .modal{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    
+
+ }
+ .card{
+    max-width: 300px;
+ }
+ .card h3{
     margin-top: 0;
 
  }
@@ -265,13 +279,70 @@ p3{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
-    background: white;
-    color: #000000;
+    background: #ffffff;
+    color: rgb(7, 7, 7);
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
-    margin-top: 20px
-    
  }
 
+ .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0  ;
+    width: 100vw;
+    height: 100vh,;
+    background: rgb(122, 122, 122);
+    display: none;
+    justify-content: center;
+    align-items: center;
+ }
+ .modal:target{
+    display: flex;
+
+ }
+ .modal-content{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgb(255, 255, 255);
+ }
+ .close-btn{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 16px;
+    background: #5c5c5c;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+
+ }
+ @media (max-width:675px){
+    header .container, .sobre-container{
+        flex-direction: column;
+        text-align: center;        
+    }
+
+    nav ul{
+        margin-top: 10px;
+        flex-direction: column;        
+    }
+    
+    .banner{
+        margin-top: 160px;
+    }
+
+    section{
+        scroll-margin-top: 180px;
+    }
+    
+}
  
