@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior:smooth;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .container{
     max-width: 1200px;
@@ -269,8 +270,9 @@ p3{
 
  }
  .card{
-    max-width: 300px;
- }
+    text-align: justify;
+} 
+ 
  .card h3{
     margin-top: 0;
 
@@ -286,7 +288,9 @@ p3{
     cursor: pointer;
  }
 
+
  .modal {
+    margin-top: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -304,6 +308,8 @@ p3{
 
  }
  .modal-content{
+    max-height: 60vh;
+    overflow-y: auto; 
     left: 0;
     right: 0;
     top: 0;
@@ -311,8 +317,8 @@ p3{
     background: white;
     padding: 30px;
     border-radius: 10px;
-    max-width: 400px;
-    text-align: center;
+    max-width: 600px;
+    text-align: justify;
     box-shadow: 0 5px 20px rgb(255, 255, 255);
  }
  .close-btn{
@@ -341,7 +347,7 @@ p3{
     }
 
     section{
-        scroll-margin-top: 180px;
+        scroll-margin-top: 200px;
     }
     
 }
