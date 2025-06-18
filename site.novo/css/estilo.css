@@ -11,7 +11,9 @@
     padding: 5px;
 }
 body{
-    background-color: rgb(0, 0, 0)
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 35px;
 }
 header{
     background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #ffffff; outline-style: double;
@@ -20,6 +22,7 @@ header{
     top: 0%;
     position: fixed;
     z-index: 1000;
+    
 }
 header .container{
     display: flex;
@@ -282,10 +285,11 @@ p3{
     margin-top: 15px;
     padding: 10px 20px;
     background: #ffffff;
-    color: rgb(7, 7, 7);
+    color: rgb(109, 109, 109);
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
+    margin: 20px;
  }
 
 
@@ -303,11 +307,15 @@ p3{
     justify-content: center;
     align-items: center;
  }
+ 
  .modal:target{
     display: flex;
 
  }
  .modal-content{
+    scroll-margin-top: 180px;
+    scroll-margin-top: 200px;
+    margin-top: 15px;
     max-height: 60vh;
     overflow-y: auto; 
     left: 0;
@@ -317,9 +325,12 @@ p3{
     background: white;
     padding: 30px;
     border-radius: 10px;
-    max-width: 600px;
     text-align: justify;
     box-shadow: 0 5px 20px rgb(255, 255, 255);
+    max-height: 90vh;
+    max-width: 600px;
+    overflow-y: auto; 
+    max-height: 60vh;
  }
  .close-btn{
     margin-top: 20px;
@@ -351,4 +362,15 @@ p3{
     }
     
 }
- 
+.gallery:hover {
+    border: 1px solid #777;
+  }
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
