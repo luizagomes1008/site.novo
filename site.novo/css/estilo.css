@@ -91,6 +91,7 @@ h1{
 footer{
     color: rgb(0, 0, 0); font-size: 2em;
     background-color: #ffffff;
+    text-align: center;
 }
 
 main p1{
@@ -110,7 +111,7 @@ main h1{
 }
 
 img{
-    margin-left: 0.7%; margin-right: 0.7%;
+    margin-left: 1%; margin-right: 1%;
     outline-style:outset; outline-color: #ffffff;
     margin-top: 0.7%;
    
@@ -269,9 +270,8 @@ p3{
     box-shadow: 0 4px 10px rgba(255, 255, 255);
     margin: auto;
     text-align: center;
-    
-
  }
+
  .card{
     text-align: justify;
 } 
@@ -302,7 +302,7 @@ p3{
     bottom: 0  ;
     width: 100vw;
     height: 100vh,;
-    background: rgb(122, 122, 122);
+    background-color: rgb(0, 0, 0);
     display: none;
     justify-content: center;
     align-items: center;
@@ -313,24 +313,15 @@ p3{
 
  }
  .modal-content{
-    scroll-margin-top: 180px;
-    scroll-margin-top: 200px;
-    margin-top: 15px;
-    max-height: 60vh;
-    overflow-y: auto; 
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    height: 260px;
+    overflow-y: scroll;
+    border: 1px solid black;
     background: white;
     padding: 30px;
     border-radius: 10px;
     text-align: justify;
     box-shadow: 0 5px 20px rgb(255, 255, 255);
-    max-height: 90vh;
     max-width: 600px;
-    overflow-y: auto; 
-    max-height: 60vh;
  }
  .close-btn{
     margin-top: 20px;
@@ -343,34 +334,42 @@ p3{
 
  }
  @media (max-width:675px){
-    header .container, .sobre-container{
+     header .container, .sobre-container{
         flex-direction: column;
         text-align: center;        
     }
 
-    nav ul{
+    nav ul li a{
         margin-top: 10px;
         flex-direction: column;        
     }
     
     .banner{
+        height: 900px;
         margin-top: 160px;
     }
 
     section{
-        scroll-margin-top: 200px;
+        scroll-margin-top: 250px;
+
+    }
+    .modal{
+        margin-top: 100px;
+    }
+    .modal-content{
+        max-height: 60vh;
     }
     
 }
 .gallery:hover {
     border: 1px solid #777;
   }
-.gallery img {
-    width: 100%;
-    height: auto;
+.gallery .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
   }
 
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+
+
