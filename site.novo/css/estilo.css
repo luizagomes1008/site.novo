@@ -132,9 +132,12 @@ h2{
   }
 
 p3{
+    color: #ffffff;
+    font-size: 1.5em;
+    background-color: rgb(36, 36, 36);
     a{
         margin-top: 20px;
-        color: #ffffff; font-size: 2em;
+        color: #ffffff; 
         background-color: rgb(36, 36, 36);
     }
 }
@@ -345,7 +348,7 @@ p3{
     }
     
     .banner{
-        height: 900px;
+        height: 800px;
         margin-top: 160px;
     }
 
