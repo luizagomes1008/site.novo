@@ -1,2 +1,2 @@
-luizagomes1008.github.io/site.novo/
+https://luizagomes1008.github.io/site.novo/
 
