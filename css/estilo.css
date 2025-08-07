@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 35px;
+}
+header{
+    background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #ffffff; outline-style: double;
+    padding: 5px  5px  5px  5px;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    z-index: 1000;
+    
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000000; background-color: #ffffff;
+    font-style: oblique; outline-style:double; outline-color: rgb(0, 0, 0);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul li{
+    margin-left: 20px;
+  }
+  nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+  @media (max-width: 675px) {
+    header{
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    nav ul{
+        margin-top: 10px;
+        flex-direction: column;
+      }
+    
+    
+  }
+h1{
+    margin-top: 10px;
+ font-size: 2.2em;
+    color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+h1co{
+    margin-top: 10px;
+    font-size: 2.2em;
+    color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-style: oblique; outline-style: dashed; outline-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.pbanner{
+    color: rgb(255, 255, 255); font-size: 1.5em; font-style: italic;
+}
+.pbannercont{
+    color: rgb(0, 0, 0); font-size: 1.5em; font-style: italic;
+}
+.banner{
+    background: url(../img/download\ \(1\).jpg.crdownload) no-repeat center/cover;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 2px 2px 5px #dfe0e5
+    
+}
+.bannercont{
+    background: url(../img/headeeeer.jpg) no-repeat center/cover;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 2px 2px 5px #dfe0e5
+}
+footer{
+    color: rgb(0, 0, 0); font-size: 2em;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+main p1{
+    color: rgb(0, 0, 0); background-color: rgb(99, 99, 99); font-size: 1.5em; font-style: inherit;
+    opacity: 59%;
+    margin-top: 10px;
+    
+    
+}
+main h1{
+    padding-top: 5px;
+   color: rgb(255, 255, 255); font-style: oblique; background-color: black;
+   color: rgb(255, 238, 238);
+   text-shadow: 2px 2px 4px #ffffff;
+   padding-bottom: 5px;
+ 
+}
+
+img{
+    margin-left: 1%; margin-right: 1%;
+    outline-style:outset; outline-color: #ffffff;
+    margin-top: 0.7%;
+   
+}
+ul{
+    color: rgb(0, 0, 0); background-color: rgb(99, 99, 99); font-size: 1.5em; font-style: inherit;
+    opacity: 59%;
+}
+h2{
+    color: rgb(250, 250, 250); background-color: rgb(0, 0, 0); font-size: 1.5em; font-style: inherit;
+    padding-top: 15px;
+    outline-style: double; outline-color: #ffffff;
+}
+ 
+ 
+  a:hover{
+      background-color: black;
+  }
+
+p3{
+    color: #ffffff;
+    font-size: 1.5em;
+    background-color: rgb(36, 36, 36);
+    a{
+        margin-top: 20px;
+        color: #ffffff; 
+        background-color: rgb(36, 36, 36);
+    }
+}
+p4{
+    color: #ffffff;
+    font-size: 1.5em;
+    background-color: rgb(36, 36, 36);
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.paragrafo{
+    color: rgb(255, 255, 255);
+    background:none;
+    font-style:oblique;
+    color: rgb(255, 238, 238);
+    text-shadow: 4px 4px 4px #000000;
+    
+}
+
+#sobre{
+    padding: 35px;
+    margin-top: 5px;  
+    background-color: #000000;
+ 
+}
+.sobre-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 1400px;
+    margin: auto;
+}
+.sobre-texto{
+    flex: 1;
+    padding: 20px;
+
+}
+.fonte-texto h2{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.fonte-texto p{
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.hex-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    flex: 1;
+}
+.hex{
+    width: 140px;
+    height: 120px;
+    clip-path: polygon(60% 0%, 103% 35%, 103% 75%, 60% 100%, 8% 75%, 8% 35%);
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+
+}
+.hex img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width:675px){
+    header.container, .sobre-container{
+     flex-direction: column;
+     text-align: center;
+    }
+    nav ul{
+     margin-top: 10px;
+     flex-direction: column;
+    }
+    .banner{
+     margin-top: 160px;
+    }
+ 
+ }
+ .imgcard{
+    width:70%;
+
+ }
+ .centralizado{
+    text-align: center;
+}
+ #acao .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+    padding: 50px 0;
+ }
+#acao .item{
+    background-color:#000000;
+    outline-style: double; outline-color: #ffffff;
+    border: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    cursor:pointer
+}
+#acao .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #ffffff;
+
+}
+#acao .item:active{
+    transform: scale(0.98);
+    box-shadow: 0 8px 16px #ffffff;
+
+}
+#acao .item p{
+    margin-top: 15px;
+    font-size: 0.95em;
+    color: #707070;
+}
+ #acao .imagem img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+
+
+ }
+ .centraliza{
+    text-align: center;
+}
+
+ /*modal*/ 
+
+ .modal{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255);
+    margin: auto;
+    text-align: center;
+ }
+
+ .card{
+    text-align: justify;
+} 
+ 
+ .card h3{
+    margin-top: 0;
+
+ }
+ .btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px;
+ }
+
+
+ .modal {
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0  ;
+    width: 100vw;
+    height: 100vh,;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .modal:target{
+    display: flex;
+
+ }
+ .modal-content{
+    height: 260px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 0 5px 20px rgb(255, 255, 255);
+    max-width: 600px;
+ }
+ .close-btn{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 16px;
+    background: #5c5c5c;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+
+ }
+ @media (max-width:675px){
+     header .container, .sobre-container{
+        flex-direction: column;
+        text-align: center;        
+    }
+
+    nav ul li a{
+        margin-top: 10px;
+        flex-direction: column;        
+    }
+    
+    .banner{
+        height: 800px;
+        margin-top: 160px;
+    }
+
+    section{
+        scroll-margin-top: 250px;
+
+    }
+    .modal{
+        margin-top: 100px;
+    }
+    .modal-content{
+        max-height: 60vh;
+    }
+    
+}
+.gallery:hover {
+    border: 1px solid #777;
+  }
+.gallery .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+
+
+
