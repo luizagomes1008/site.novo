@@ -99,7 +99,7 @@ h1co{
     
 }
 .bannercont{
-    background: url(../img/headeeeer.jpg) no-repeat center/cover;
+    background: url(../img/bannercon.jpg) no-repeat center/cover;
     height: 230px;
     display: flex;
     flex-direction: column;
@@ -406,6 +406,64 @@ p4{
     gap: 2em;
     justify-content: center;
   }
+body.paginamensagem {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+body.paginamensagem main {
+  flex: 1;
+}
+
+.mensagem{
+  margin-top: 10%;
+  background-color: rgb(255, 255, 255);
+}
+
+  .formulario-contato {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    color: #000000;
+    
+    
+  }
+  
+  .grupo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .grupo-form input,
+  .grupo-form select,
+  .grupo-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-top: 8px;
+  }
+  
+  .grupo-form input[type="checkbox"],
+  .grupo-form input[type="radio"] {
+    margin-right: 8px;
+    margin-top: 0;
+  }
+  
+  .grupo-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="range"] {
+    accent-color: #000000; /* Muda a cor da barra e do botão nas versões modernas */
+  }  
 
 
