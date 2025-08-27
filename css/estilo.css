@@ -13,7 +13,10 @@
 body{
     background-color: rgb(0, 0, 0);
     margin: auto;
+    padding: 30px;
     
+
+  
 }
 header{
     background-color: rgb(0, 0, 0); font-size: 0.8em; outline: #ffffff; outline-style: double;
@@ -31,10 +34,8 @@ header .container{
     flex-wrap: wrap;
 }
 .logo{
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #000000; background-color: #ffffff;
-    font-style: oblique; outline-style:double; outline-color: rgb(0, 0, 0);
+ 
+    width: 20%;
 
 }
 nav ul{
@@ -527,6 +528,44 @@ h2.centraliza-mensagem{
   .tabela-ia tbody tr:last-child td {
     border-bottom: none;
   }
+  #quiz-container {
+    
+    background-color: #dfe0e5;
+    color: #000;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  #quiz-container h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .option:hover {
+    background: #f0f0f0;
+  }
   
   
     /* Opcional: força 4 colunas apenas em telas grandes */
@@ -571,3 +610,5 @@ h2.centraliza-mensagem{
           padding: 20px;
         }
   }
+
+
