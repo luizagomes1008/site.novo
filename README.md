@@ -1,1 +1,1 @@
-https://github.com/luizagomes1008/site.novo/index.html
+https://luizagomes1008.github.io/site.novo/
